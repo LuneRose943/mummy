@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyeux Anniversaire Gmk !</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="musique-anniversaire" loop>
+        <source src="musique_anniversaire.mp3" type="audio/mpeg">
+        Votre navigateur ne supporte pas l'élément audio.
+    </audio>
+
+    <div class="carte-container">
+        <div id="scene-rideau" class="scene active">
+            <div class="rideau-gauche"></div>
+            <div class="rideau-droite"></div>
+            <div class="corde-container">
+                <div id="corde" class="corde"></div>
+                <div class="noeud"></div>
+            </div>
+            <p class="instruction-tirer">Tirer sur la corde</p>
+        </div>
+
+        <div id="scene-texte1" class="scene">
+            <div class="confettis-container"></div>
+            <div class="texte-scrollable-container">
+                <div class="texte-content">
+                    <p>Mon très cher cousin Gédéon, ou devrais-je dire mon irremplaçable Gmk !</p>
+                    <p>Aujourd'hui est un jour béni, car il célèbre ta présence dans nos vies. Bien que le temps et la distance nous séparent physiquement, sache que mon cœur est rempli de joie à chaque fois que je repense à nos moments passés ensemble. Ces souvenirs sont de précieux trésors que je chéris énormément.</p>
+                    <p>Tu es une personne incroyablement <u>gentille</u>, <u>aimable</u> et dotée d'une <u>intelligence</u> brillante. Ton sens de l'humour unique apporte tant de lumière, et ta serviabilité est un témoignage de la grandeur de ton âme. Tu es vraiment spécial, Gmk.</p>
+                </div>
+            </div>
+            <button id="btn-suivant" class="btn-action">Suivant</button>
+        </div>
+
+        <div id="scene-question" class="scene">
+            <div class="question-container">
+                <p>Tu veux plus des surprises ?</p>
+                <div class="reponses-container">
+                    <button id="btn-oui" class="btn-reponse">Oui</button>
+                    <button id="btn-non" class="btn-reponse">Non</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="scene-texte2" class="scene">
+            <div class="confettis-container"></div>
+            <div class="emojis-flottants-container"></div>
+            <div class="texte-scrollable-container">
+                <div class="texte-content">
+                    <p>En ce jour si particulier, je prie pour que le Seigneur déverse sur toi une abondance de <u>bonheur</u>, de joie et de paix qui surpasse toute intelligence. Que Sa grâce t'accompagne dans chacun de tes projets, et qu'Il couronne tes efforts d'un <u>succès</u> éclatant. Que ta vie <u>chrétienne</u> continue de s'épanouir, ancrée dans Sa parole et guidée par Son Esprit. Demeure toujours cet homme <u>heureux</u>, rayonnant et plein de vie.</p>
+                    <p>Sache que <u>je t'aime énormément</u>, mon cousin. Et je ne peux pas m'empêcher de le mentionner : <u>j'aime beaucoup tes yeux</u>, ils reflètent toute la bonté de ton cœur.</p>
+                    <p>Que cette nouvelle année soit la plus belle de toutes, remplie de surprises divines et de rires. Joyeux et scintillant anniversaire, Gmk ! Que Dieu te bénisse abondamment !"</p>
+                </div>
+            </div>
+             <button id="btn-final" class="btn-action">Et pour finir...</button>
+        </div>
+
+        <div id="scene-photos" class="scene">
+             <div class="confettis-container"></div>
+            <div class="photos-infinies-container">
+                <img src="photo1.jpg" alt="Photo de Gmk 1" class="photo-animee">
+                <img src="photo2.jpg" alt="Photo de Gmk 2" class="photo-animee">
+                <img src="photo3.jpg" alt="Photo de Gmk 3" class="photo-animee">
+                <img src="photo4.jpg" alt="Photo de Gmk 4" class="photo-animee">
+                 </div>
+             <p class="message-final">Je t'aime Gmk ! ❤️</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
